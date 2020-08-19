@@ -26,7 +26,7 @@ public class BaiduocpcModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void init(long setId, String appKey) {
+    public void init(int setId, String appKey) {
         // TODO: Implement some actually useful functionality
 //        callback.invoke("Received numberArgument: " + numberArgument + " stringArgument: " + stringArgument);
         JLibrary.InitEntry(reactContext);
